@@ -6,13 +6,12 @@ metadata:
   name: nsq-ruby
   description: A worker framework for processing messages from an NSQ topic and channel.
   annotations:
-    github.com/project-slug: wistia/nsq-ruby
+    github.com/project-slug: reverbdotcom/nsq-ruby
     backstage.io/techdocs-ref: dir:.
   tags:
-    - lang#ruby
-    - pkg#rubygem
+    - ruby
+    - ruby-2-3
 spec:
   type: library
-  owner: infrastructure
+  owner: infra
   lifecycle: production
-  system: VMA
